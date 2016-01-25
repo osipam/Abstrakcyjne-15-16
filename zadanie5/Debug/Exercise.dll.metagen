@@ -1,0 +1,88 @@
+ImageRuntimeVersion: v4.0.30319
+Assembly Exercise, Version=0.0.*, Culture=Invariant Language (Invariant Country): 
+	hash=SHA1, flags=PublicKey
+Assembly mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Core, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Class Exercise.Card: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(Exercise.CardType, Exercise.CardColor): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Interfaces:
+    System.IComparable`1[Exercise.Card]
+    System.ICloneable
+    System.IDisposable
+  Properties:
+    Exercise.CardType Type 'get set' : 
+    Exercise.CardColor Color 'get set' : 
+  Methods:
+    get_Color(): PrivateScope, Public, HideBySig, SpecialName
+    get_Type(): PrivateScope, Public, HideBySig, SpecialName
+    CompareTo(Card): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    Clone(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    GetPowerOfTwo(Int16): PrivateScope, Public, HideBySig
+    Equals(Object): PrivateScope, Public, Virtual, HideBySig
+    GetHashCode(): PrivateScope, Public, Virtual, HideBySig
+    Dispose(): PrivateScope, Public, Final, Virtual, HideBySig
+Struct Exercise.CardColor: AutoLayout, AnsiClass, Class, Public, Sealed, BeforeFieldInit
+  :System.Enum
+  Fields:
+    SByte value__ IsSignUnspecifiedByte : Public, SpecialName, RTSpecialName
+    Exercise.CardColor Club = 0 : Public, Static, Literal, HasDefault
+    Exercise.CardColor Diamond = 1 : Public, Static, Literal, HasDefault
+    Exercise.CardColor Heart = 2 : Public, Static, Literal, HasDefault
+    Exercise.CardColor Spade = 3 : Public, Static, Literal, HasDefault
+Struct Exercise.CardType: AutoLayout, AnsiClass, Class, Public, Sealed, BeforeFieldInit
+  :System.Enum
+  Fields:
+    Int16 value__ : Public, SpecialName, RTSpecialName
+    Exercise.CardType Two = 1 : Public, Static, Literal, HasDefault
+    Exercise.CardType Three = 2 : Public, Static, Literal, HasDefault
+    Exercise.CardType Four = 4 : Public, Static, Literal, HasDefault
+    Exercise.CardType Five = 8 : Public, Static, Literal, HasDefault
+    Exercise.CardType Six = 16 : Public, Static, Literal, HasDefault
+    Exercise.CardType Seven = 32 : Public, Static, Literal, HasDefault
+    Exercise.CardType Eight = 64 : Public, Static, Literal, HasDefault
+    Exercise.CardType Nine = 128 : Public, Static, Literal, HasDefault
+    Exercise.CardType Ten = 256 : Public, Static, Literal, HasDefault
+    Exercise.CardType Jack = 512 : Public, Static, Literal, HasDefault
+    Exercise.CardType Queen = 1024 : Public, Static, Literal, HasDefault
+    Exercise.CardType King = 2048 : Public, Static, Literal, HasDefault
+    Exercise.CardType Ace = 4096 : Public, Static, Literal, HasDefault
+Class Exercise.SortSummary: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(UInt32, UInt32): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Properties:
+    UInt32 Swaps 'get set' : 
+    UInt32 Comparisons 'get set' : 
+  Methods:
+    get_Comparisons(): PrivateScope, Public, HideBySig, SpecialName
+    get_Swaps(): PrivateScope, Public, HideBySig, SpecialName
+Class Exercise.CardSet`1[CARD]: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  Type parameter: CARD, Exercise.Card, System.IComparable`1[CARD],  DefaultConstructor
+    Void .ctor(CARD[]): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Interfaces:
+    System.Collections.Generic.IEnumerable`1[CARD]
+    System.Collections.IEnumerable
+    System.ICloneable
+    System.IComparable`1[Exercise.CardSet`1[CARD]]
+    System.IDisposable
+  Properties:
+    CARD Item [Int32] 'get set' : 
+  Methods:
+    get_Item(Int32): PrivateScope, Public, HideBySig, SpecialName
+    set_Item(Int32, CARD): PrivateScope, Public, HideBySig, SpecialName
+    GetEnumeratorNonGeneric(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    GetEnumerator(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    Clone(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    CompareTo(CardSet`1): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    Randomize(): PrivateScope, Public, HideBySig
+    Sort(SortAlgorithm): PrivateScope, Public, HideBySig
+    Dispose(): PrivateScope, Public, Final, Virtual, HideBySig
+Struct Exercise.SortAlgorithm: AutoLayout, AnsiClass, Class, Public, Sealed, BeforeFieldInit
+  :System.Enum
+  Fields:
+    SByte value__ IsSignUnspecifiedByte : Public, SpecialName, RTSpecialName
+    Exercise.SortAlgorithm Bubble = 0 : Public, Static, Literal, HasDefault
+    Exercise.SortAlgorithm Quick = 1 : Public, Static, Literal, HasDefault

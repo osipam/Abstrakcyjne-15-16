@@ -1,0 +1,9 @@
+D:\One drive\OneDrive\Cwiczenia\3 rok\Abstrakcyjne\Exercise 5 Cards\Tests\obj\Debug\Tests.csprojResolveAssemblyReference.cache
+D:\One drive\OneDrive\Cwiczenia\3 rok\Abstrakcyjne\Exercise 5 Cards\Tests\bin\Debug\Tests.dll
+D:\One drive\OneDrive\Cwiczenia\3 rok\Abstrakcyjne\Exercise 5 Cards\Tests\bin\Debug\Tests.pdb
+D:\One drive\OneDrive\Cwiczenia\3 rok\Abstrakcyjne\Exercise 5 Cards\Tests\bin\Debug\Exercise.dll
+D:\One drive\OneDrive\Cwiczenia\3 rok\Abstrakcyjne\Exercise 5 Cards\Tests\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+D:\One drive\OneDrive\Cwiczenia\3 rok\Abstrakcyjne\Exercise 5 Cards\Tests\bin\Debug\Exercise.pdb
+D:\One drive\OneDrive\Cwiczenia\3 rok\Abstrakcyjne\Exercise 5 Cards\Tests\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.xml
+D:\One drive\OneDrive\Cwiczenia\3 rok\Abstrakcyjne\Exercise 5 Cards\Tests\obj\Debug\Tests.dll
+D:\One drive\OneDrive\Cwiczenia\3 rok\Abstrakcyjne\Exercise 5 Cards\Tests\obj\Debug\Tests.pdb

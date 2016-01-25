@@ -1,0 +1,5 @@
+D:\One drive\OneDrive\Cwiczenia\3 rok\Abstrakcyjne\Exercise 4 Hotels\Exercise\bin\Debug\Exercise.dll
+D:\One drive\OneDrive\Cwiczenia\3 rok\Abstrakcyjne\Exercise 4 Hotels\Exercise\bin\Debug\Exercise.pdb
+D:\One drive\OneDrive\Cwiczenia\3 rok\Abstrakcyjne\Exercise 4 Hotels\Exercise\obj\Debug\Exercise.dll
+D:\One drive\OneDrive\Cwiczenia\3 rok\Abstrakcyjne\Exercise 4 Hotels\Exercise\obj\Debug\Exercise.pdb
+D:\One drive\OneDrive\Cwiczenia\3 rok\Abstrakcyjne\Exercise 4 Hotels\Exercise\obj\Debug\Exercise.csprojResolveAssemblyReference.cache
